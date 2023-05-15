@@ -13,7 +13,7 @@ export default function HomePage() {
             <Link href="/riders">Riders</Link>
           </li>
           <li>
-            <Link href="/about/stats">Riders</Link>
+            <Link href="/riders/stats">Stats</Link>
           </li>
         </ul>
       </h1>
