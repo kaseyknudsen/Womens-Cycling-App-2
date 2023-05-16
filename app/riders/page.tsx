@@ -1,8 +1,5 @@
+const RidersPage = () => {
+  return <div>Riders Page</div>;
+};
 
-const Riders = () => {
-  return (
-    <div>Riders</div>
-  )
-}
-
-export default Riders
+export default RidersPage;

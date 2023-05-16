@@ -1,4 +1,3 @@
-
 const CommunityPage = () => {
   return <div>Community Page</div>;
 };

@@ -1,7 +1,7 @@
 
 const GearPage = () => {
   return (
-    <div>GearPage</div>
+    <div>Gear Page</div>
   )
 }
 
