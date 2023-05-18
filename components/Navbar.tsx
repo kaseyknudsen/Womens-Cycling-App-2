@@ -3,7 +3,7 @@ const Navbar = () => {
   return (
     <div>
         <nav>
-            <div className="flex flex-row hover:flex-row space-x-24 bg-white border-black border-1 rounded-md p-5">
+            <div className="flex justify-center bg-brightRedLight space-x-32 items-center  h-32">
                 <Link href="/">Home</Link>
                 <Link href="/riders">Riders</Link>
                 <Link href="/teams">Teams</Link>
