@@ -1,10 +1,13 @@
 import Navbar from "@/components/Navbar";
 import Link from "next/link";
+import HeroSection from "@/components/HeroSection";
 
 export default function HomePage() {
   return (
-    <main className="">
-      <div></div>
-    </main>
+    
+      <div>
+        <HeroSection />
+      </div>
+    
   );
 }
