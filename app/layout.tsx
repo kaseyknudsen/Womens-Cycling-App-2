@@ -1,8 +1,19 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
+import { Poppins, Raleway } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
+
+const poppins = Poppins({
+  weight: ["200", "300", "400", "700", "800", "900"],
+  preload: false,
+});
+
+const raleway = Raleway({
+  weight: ["200", "300", "400", "700", "800", "900"],
+  preload: false,
+});
 
 export const metadata = {
   title: "Women's Road Cycling App",
@@ -18,11 +29,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={raleway.className}>
         <div>
           <Navbar />
         </div>
-        {children}
+        <main className="container">{children}</main>
       </body>
     </html>
   );
