@@ -25,7 +25,7 @@ const HeroSection = () => {
           </div>
         </div>
         {/* images */}
-        <div>
+        <div className="mr-2">
           <Image
             src="/images/Vollering.jpg"
             width={400}
@@ -33,7 +33,7 @@ const HeroSection = () => {
             alt="Demi Vollering"
           />
         </div>
-        <div>
+        <div className="mr-2">
           <Image
             src="/images/Kopecky.jpeg"
             width={400}
@@ -41,7 +41,7 @@ const HeroSection = () => {
             alt="Demi Vollering"
           />
         </div>
-        <div>
+        <div className="md:w-1/2 mr-2">
           <Image
             src="/images/VanVleuten2.jpg"
             width={400}
