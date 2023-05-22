@@ -33,6 +33,22 @@ const HeroSection = () => {
             alt="Demi Vollering"
           />
         </div>
+        <div>
+          <Image
+            src="/images/Kopecky.jpeg"
+            width={400}
+            height={400}
+            alt="Demi Vollering"
+          />
+        </div>
+        <div>
+          <Image
+            src="/images/VanVleuten2.jpg"
+            width={400}
+            height={400}
+            alt="Demi Vollering"
+          />
+        </div>
       </div>
     </>
   );
