@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const HeroSection = () => {
   const header: string =
@@ -24,7 +25,14 @@ const HeroSection = () => {
           </div>
         </div>
         {/* images */}
-        <div className="flex">This is the right item</div>
+        <div>
+          <Image
+            src="/images/Vollering.jpg"
+            width={400}
+            height={400}
+            alt="Demi Vollering"
+          />
+        </div>
       </div>
     </>
   );
